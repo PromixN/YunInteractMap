@@ -9,7 +9,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/wukong-map/',//git部署需要的打包路径设置
+  base: '/YunInteractMap/',//git部署需要的打包路径设置
   plugins: [
     vue(),
     vueDevTools(),

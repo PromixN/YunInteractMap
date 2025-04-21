@@ -100,6 +100,7 @@ export const useCommonStore = defineStore('common', () => {
 
   return {
     mapId,//地图id
+    mapName,//地图id
     mapInfo,//地图图片信息
     mapList,//地图列表
     markers,//标记点列表

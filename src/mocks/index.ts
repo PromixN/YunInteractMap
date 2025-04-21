@@ -23,7 +23,7 @@ function mockGetMarkerList() {
     const ids = urlParams.get('ids')
     return markData
       .filter((item) => ids?.split(',')?.includes(item.landmarkCatalogId + ''))
-      .map((item) => ({ ...item, iconUrl: _getIcon(item.landmarkCatalogId) ?? '' }))
+      .map((item) => ({ ...item, iconUrl: item.landmarkCatalogId !== undefined ? _getIcon(item.landmarkCatalogId) ?? '' : '' }))
   })
 }
 
@@ -31,7 +31,7 @@ function mockGetAllMarkerList() {
   mockjs.mock(new RegExp('/api/mark/getAllMarkList'), 'get', (opts) => {
     return markData
       .filter((item) => true)
-      .map((item) => ({ ...item, iconUrl: _getIcon(item.landmarkCatalogId) ?? '' }))
+      .map((item) => ({ ...item, iconUrl: item.landmarkCatalogId !== undefined ? _getIcon(item.landmarkCatalogId) ?? '' : '' }))
   })
 }
 
