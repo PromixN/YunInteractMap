@@ -2,3 +2,4 @@ node_modules
 .git
 *.mjs
 yunmap.zip
+dist
