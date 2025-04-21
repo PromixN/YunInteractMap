@@ -28,7 +28,7 @@ const form = reactive<MarkerFormData>({
   x: 0,
   y: 0,
   z:400,
-  iconUrl: '/wukong-map/icons/origin_8204994_925852.png', // 默认图标
+  iconUrl: '/YunInteractMap/icons/origin_8204994_925852.png', // 默认图标
   gameMapId: props.gameMapId,
   gameMapName: props.gameMapName
 })

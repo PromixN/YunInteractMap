@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const request = axios.create({
-  baseURL: '/wukong-map',
+  baseURL: '/YunInteractMap',
   timeout: 5000,
   headers: { 'Content-Type': 'application/json' }
 })

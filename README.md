@@ -1,6 +1,6 @@
 # Yun-map
 
-forked from https://gitee.com/jumping-world-line/wukong-map
+forked from https://gitee.com/jumping-world-line/YunInteractMap
 
 This template should help get you started developing with Vue 3 in Vite.
 
